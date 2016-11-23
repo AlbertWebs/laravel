@@ -167,8 +167,9 @@ return [
          * Package Service Providers...
          */
 
-        //
-
+        Larafolio\LarafolioServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */

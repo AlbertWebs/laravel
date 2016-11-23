@@ -25,6 +25,8 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('manage-portfolio', function ($user) {
+            return $user->id == 1;
+        });
     }
 }

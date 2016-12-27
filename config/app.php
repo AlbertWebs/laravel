@@ -168,7 +168,6 @@ return [
          */
 
         Larafolio\LarafolioServiceProvider::class,
-        Intervention\Image\ImageServiceProvider::class,
         VueGenerators\ServiceProvider::class,
         
         /*
